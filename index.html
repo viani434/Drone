@@ -2,6 +2,8 @@
 <html>
   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap" rel="stylesheet">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -9,36 +11,48 @@
   </head>
   <body>
     <style>
+      h1 {
+        background-color: black;
+      }
+      h2 {
+        background-color: black;
+      }
       html {
   scroll-behavior: smooth;
 }
     #section1 {
   height: 300px;
-  background-color: pink;
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/51CkRpY1BfL._AC_SX466_.jpg");
   padding: 25px;
   color: white;
+  font-family: 'Barlow Condensed', sans-serif;
+  background-size: cover;
 }
-#section2 {
+#section3 {
   height: 300px;
   background-color: yellow;
   padding: 25px;
   color: white;
+  font-family: 'Barlow Condensed', sans-serif;
 }
-#section3 {
+#section4 {
   height: 300px;
   background-color: blue;
   padding: 25px;
   color: white;
+  font-family: 'Barlow Condensed', sans-serif;
 }
-#section4 {
+#section5 {
   height: 300px;
   background-color: red;
   padding: 25px;
   color: white;
+  font-family: 'Barlow Condensed', sans-serif;
 }
       body {
   overflow: scroll;
   background: black;
+  margin: 0 auto;
 }
       #myBtn {
   position: fixed;
@@ -85,22 +99,35 @@
     </style>
   <div class="navbar">
   <a href="#section1">Home</a>
-  <a href="#section2">Over Ons</a>
-  <a href="#section3">Diensten</a>
-  <a href="#section4">Contact</a>
+  <a href="#section3">Over Ons</a>
+  <a href="#section4">Diensten</a>
+  <a href="#section5">Contact</a>
   </div>
 <div class="main" id="section1">
     <h1>Home</h1>
     <h2>Foto's of Inspectie nodig?</h2>
-</div>
-<div class="main" id="section2">
-  <h1>Over Ons</h1>
+    <h2>Wij helpen je!</h2>
 </div>
 <div class="main" id="section3">
-  <h1>Diensten</h1>
+  <h1>Over Ons</h1>
+  <h2></h2>
 </div>
 <div class="main" id="section4">
-  <h1>Contact</h1>
+  <h1>Diensten</h1>
 </div>
+<div class="main" id="section5">
+  <h1>Contact</h1>
+  <h2><small>Mail:vianidrone@gmail.com</small></h2>
+</div>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-197893390-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-197893390-1');
+</script>
   </body>
 </html>
